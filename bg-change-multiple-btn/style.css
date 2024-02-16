@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.container .buttons {
+  position: absolute;
+  color: white;
+  border: 2px solid white;
+  font-size: 1.5rem;
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.container .button-one {
+  top: 0;
+  left: 0;
+  background-color: #ef476f;
+}
+.container .button-two {
+  top: 0;
+  right: 0;
+  background-color: #ffd166;
+}
+.container .button-three {
+  bottom: 0;
+  left: 0;
+  background-color: #06d6a0;
+}
+.container .button-four {
+  bottom: 0;
+  right: 0;
+  background-color: #118ab2;
+}
+.container .button-five {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #073b4c;
+}/*# sourceMappingURL=style.css.map */
